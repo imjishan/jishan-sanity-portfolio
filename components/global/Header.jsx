@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import Button from "@/components/Header/Button";
+import Button from "@/components/global/Button";
 import { motion } from "framer-motion";
 import Nav from "./Nav";
 import { AnimatePresence } from "framer-motion";
