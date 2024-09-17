@@ -28,7 +28,13 @@ export default async function RootLayout({
       style={{ ['--color-primary' as any]: rgbaBgColor, ['--color-secondary' as any]: rgbaTextColor }}
       className={`bg-primary`}
     >
-      <body>{children}</body>
+      <body>
+            <div className="z-20 relative">
+              <Header />
+            </div>
+{children}
+
+</body>
     </html>
   )
 }
