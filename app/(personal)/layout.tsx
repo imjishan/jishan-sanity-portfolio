@@ -69,9 +69,7 @@ export default async function IndexRoute({
   return (
     <>
       <div className="flex min-h-screen flex-col text-secondary">
-        <Suspense>
-          <Navbar />
-        </Suspense>
+        
         <div className="mt-16 flex-grow px-4 md:px-5 lg:px-5">
           <Suspense>{children}</Suspense>
         </div>
