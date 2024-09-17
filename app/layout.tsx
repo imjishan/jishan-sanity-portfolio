@@ -30,7 +30,7 @@ export default async function RootLayout({
       className={`bg-primary`}
     >
       <body>
-            <div className="z-20 relative">
+            <div className="z-20 relative rounded-3xl">
               <Header />
             </div>
 {children}
