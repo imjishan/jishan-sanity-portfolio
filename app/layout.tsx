@@ -1,4 +1,5 @@
 import './globals.css'
+import Header from "@/components/global/Header"
 
 // import { Inter } from 'next/font/google'
 import { loadSettings } from '@/sanity/loader/loadQuery'
